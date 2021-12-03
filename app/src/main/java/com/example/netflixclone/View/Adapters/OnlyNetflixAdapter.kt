@@ -1,0 +1,46 @@
+package com.example.netflixclone.View.Adapters
+
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import android.widget.ImageView
+import androidx.recyclerview.widget.RecyclerView
+import com.example.netflixclone.Network.Model.ResultX
+import com.example.netflixclone.Network.Model.ResultXX
+import com.example.netflixclone.R
+import com.squareup.picasso.Picasso
+
+
+class OnlyNetflixAdapter(val listaUser : ArrayList<ResultXX>) : RecyclerView.Adapter<OnlyNetflixAdapter.OnlyNetflixViewHolder>() {
+
+    inner class OnlyNetflixViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
+        fun bind(result: ResultXX) {
+            val img = "https://image.tmdb.org/t/p/w185//${result.poster_path}"
+            val poster = itemView.findViewById<ImageView>(R.id.imgPosterView)
+            Picasso.get().load(img).into(poster)
+        }
+    }
+
+
+
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): OnlyNetflixViewHolder {
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.item_view_onlynetflix, parent, false)
+        return OnlyNetflixViewHolder(view)
+    }
+
+    override fun onBindViewHolder(holder: OnlyNetflixViewHolder, position: Int) {
+            holder.bind(listaUser[position])
+            holder.itemView.setOnClickListener {
+                onItemClick?.invoke(position)
+            }
+
+
+    }
+
+    override fun getItemCount(): Int {
+        return listaUser.size
+    }
+
+    var onItemClick :((Int) -> Unit)? = null
+
+}

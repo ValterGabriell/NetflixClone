@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/firstFragment">
+
+    <fragment
+        android:id="@+id/firstFragment"
+        android:name="com.example.netflixclone.FirstFragment"
+        android:label="fragment_first"
+        tools:layout="@layout/fragment_first" >
+        <action
+            android:id="@+id/action_firstFragment_to_detalhesFilmesFragment"
+            app:destination="@id/detalhesFilmesFragment"
+            app:enterAnim="@android:anim/cycle_interpolator" />
+    </fragment>
+    <dialog
+        android:id="@+id/detalhesFilmesFragment"
+        android:name="com.example.netflixclone.DetalhesFilmesFragment"
+        android:label="fragment_detalhes_filmes"
+        tools:layout="@layout/fragment_detalhes_filmes" >
+        <action
+            android:id="@+id/action_detalhesFilmesFragment_to_firstFragment"
+            app:destination="@id/firstFragment"
+            app:popUpTo="@id/firstFragment" />
+        <argument
+            android:name="title"
+            app:argType="string"
+            android:defaultValue="Sem titulo" />
+        <argument
+            android:name="poster"
+            app:argType="string"
+            android:defaultValue="x" />
+        <argument
+            android:name="lingua"
+            app:argType="string"
+            android:defaultValue="Sem lingua" />
+        <argument
+            android:name="over"
+            app:argType="string"
+            android:defaultValue="Sem sinopse" />
+        <argument
+            android:name="date"
+            app:argType="string"
+            android:defaultValue="Sem data" />
+        <action
+            android:id="@+id/action_detalhesFilmesFragment_to_filmesFragment"
+            app:destination="@id/filmesFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_enter_anim" />
+        <argument
+            android:name="id"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </dialog>
+    <fragment
+        android:id="@+id/filmesFragment"
+        android:name="com.example.netflixclone.FilmesFragment"
+        android:label="fragment_filmes"
+        tools:layout="@layout/fragment_filmes" >
+        <argument
+            android:name="poster"
+            app:argType="string"
+            android:defaultValue="x" />
+        <argument
+            android:name="title"
+            app:argType="string"
+            android:defaultValue="Sem titulo" />
+        <argument
+            android:name="date"
+            app:argType="string"
+            android:defaultValue="Sem data" />
+        <argument
+            android:name="overvien"
+            app:argType="string"
+            android:defaultValue="Sem over" />
+        <action
+            android:id="@+id/action_filmesFragment_to_detalhesFilmesFragment"
+            app:destination="@id/detalhesFilmesFragment" />
+        <action
+            android:id="@+id/action_filmesFragment_to_firstFragment"
+            app:destination="@id/firstFragment"
+            app:enterAnim="@anim/nav_default_pop_exit_anim"
+            app:exitAnim="@android:anim/bounce_interpolator"
+            app:popUpTo="@id/firstFragment" />
+        <argument
+            android:name="id"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="language"
+            app:argType="string"
+            android:defaultValue="pt-BR" />
+    </fragment>
+</navigation>

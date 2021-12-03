@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".View.Activities.CreatePerfilActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_create"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+        <TextView
+            android:id="@+id/btn_salvar"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:fontFamily="@font/belgrano"
+            android:gravity="center_vertical"
+            android:text="Salvar"
+            android:textColor="@android:color/darker_gray"
+            android:textStyle="bold" />
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/logogreen"
+        />
+
+    <EditText
+        android:id="@+id/etNameUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="56dp"
+        android:ems="10"
+        android:hint="Nome do Perfil"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="@color/white"
+        android:textColorHint="@android:color/darker_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Para crianças"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/darker_gray"
+            android:minWidth="48dp"
+            android:minHeight="48dp" />
+    </LinearLayout>
+</LinearLayout>
+</layout>

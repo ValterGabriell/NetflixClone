@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/belgrano"
+        android:gravity="center"
+        android:text="Selecione um avatar"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/logoyellow"
+            android:layout_width="62dp"
+            android:layout_height="56dp"
+            android:layout_margin="4dp"
+            app:srcCompat="@drawable/logoyelow" />
+
+        <ImageView
+            android:id="@+id/logored"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_margin="4dp"
+            app:srcCompat="@drawable/logored" />
+
+        <ImageView
+            android:id="@+id/logogreen"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_margin="4dp"
+            app:srcCompat="@drawable/logogreen" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/birdorange"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_margin="4dp"
+            app:srcCompat="@drawable/birdorange" />
+
+        <ImageView
+            android:id="@+id/bixoyello"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_margin="4dp"
+            app:srcCompat="@drawable/birdyellow" />
+
+        <ImageView
+            android:id="@+id/gil"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_margin="4dp"
+            app:srcCompat="@drawable/manmad" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/n"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_margin="4dp"
+            app:srcCompat="@drawable/n" />
+
+        <ImageView
+            android:id="@+id/five"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_margin="4dp"
+            app:srcCompat="@drawable/numberfive" />
+
+        <ImageView
+            android:id="@+id/woman"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_margin="4dp"
+            app:srcCompat="@drawable/woman" />
+    </LinearLayout>
+
+</LinearLayout>

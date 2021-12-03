@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/vgabr/AndroidStudioProjects/NetflixClone/app/src/main/res/drawable/background_item.xml" value="0.28489583333333335" />
+        <entry key="..\:/Users/vgabr/AndroidStudioProjects/NetflixClone/app/src/main/res/drawable/button.xml" value="0.28489583333333335" />
+        <entry key="..\:/Users/vgabr/AndroidStudioProjects/NetflixClone/app/src/main/res/drawable/ic_add_circle.xml" value="0.28489583333333335" />
+        <entry key="..\:/Users/vgabr/AndroidStudioProjects/NetflixClone/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.28489583333333335" />
+        <entry key="..\:/Users/vgabr/AndroidStudioProjects/NetflixClone/app/src/main/res/drawable/ic_baseline_compare_arrows_24.xml" value="0.28489583333333335" />
+        <entry key="..\:/Users/vgabr/AndroidStudioProjects/NetflixClone/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.28489583333333335" />
+        <entry key="..\:/Users/vgabr/AndroidStudioProjects/NetflixClone/app/src/main/res/drawable/ic_cast_24.xml" value="0.28489583333333335" />
+        <entry key="..\:/Users/vgabr/AndroidStudioProjects/NetflixClone/app/src/main/res/drawable/ic_play.xml" value="0.28489583333333335" />
+        <entry key="..\:/Users/vgabr/AndroidStudioProjects/NetflixClone/app/src/main/res/drawable/ic_profile.xml" value="0.28489583333333335" />
+        <entry key="..\:/Users/vgabr/AndroidStudioProjects/NetflixClone/app/src/main/res/drawable/ic_saiba_mais.xml" value="0.28489583333333335" />
+        <entry key="..\:/Users/vgabr/AndroidStudioProjects/NetflixClone/app/src/main/res/drawable/ic_search.xml" value="0.28489583333333335" />
+        <entry key="..\:/Users/vgabr/AndroidStudioProjects/NetflixClone/app/src/main/res/drawable/rounded.xml" value="0.29322916666666665" />
+        <entry key="..\:/Users/vgabr/AndroidStudioProjects/NetflixClone/app/src/main/res/drawable/splash_bg.xml" value="0.28489583333333335" />
+        <entry key="..\:/Users/vgabr/AndroidStudioProjects/NetflixClone/app/src/main/res/drawable/toolbar_main.xml" value="0.28489583333333335" />
+        <entry key="..\:/Users/vgabr/AndroidStudioProjects/NetflixClone/app/src/main/res/layout/activity_create_perfil.xml" value="0.26875" />
+        <entry key="..\:/Users/vgabr/AndroidStudioProjects/NetflixClone/app/src/main/res/layout/activity_edit_profile.xml" value="0.26875" />
+        <entry key="..\:/Users/vgabr/AndroidStudioProjects/NetflixClone/app/src/main/res/layout/activity_edit_prrofile.xml" value="0.26875" />
+        <entry key="..\:/Users/vgabr/AndroidStudioProjects/NetflixClone/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/vgabr/AndroidStudioProjects/NetflixClone/app/src/main/res/layout/activity_main_netflix.xml" value="0.26875" />
+        <entry key="..\:/Users/vgabr/AndroidStudioProjects/NetflixClone/app/src/main/res/layout/activity_select_icon.xml" value="0.26875" />
+        <entry key="..\:/Users/vgabr/AndroidStudioProjects/NetflixClone/app/src/main/res/layout/add_photo.xml" value="0.33" />
+        <entry key="..\:/Users/vgabr/AndroidStudioProjects/NetflixClone/app/src/main/res/layout/fragment_detalhes_filmes.xml" value="0.26875" />
+        <entry key="..\:/Users/vgabr/AndroidStudioProjects/NetflixClone/app/src/main/res/layout/fragment_filmes.xml" value="0.26875" />
+        <entry key="..\:/Users/vgabr/AndroidStudioProjects/NetflixClone/app/src/main/res/layout/fragment_first.xml" value="0.26875" />
+        <entry key="..\:/Users/vgabr/AndroidStudioProjects/NetflixClone/app/src/main/res/layout/fragment_video.xml" value="0.25" />
+        <entry key="..\:/Users/vgabr/AndroidStudioProjects/NetflixClone/app/src/main/res/layout/item_view.xml" value="0.26875" />
+        <entry key="..\:/Users/vgabr/AndroidStudioProjects/NetflixClone/app/src/main/res/layout/item_view_comingSoon.xml" value="0.26875" />
+        <entry key="..\:/Users/vgabr/AndroidStudioProjects/NetflixClone/app/src/main/res/layout/item_view_comingsoon.xml" value="0.26875" />
+        <entry key="..\:/Users/vgabr/AndroidStudioProjects/NetflixClone/app/src/main/res/layout/item_view_comingsoons.xml" value="0.26875" />
+        <entry key="..\:/Users/vgabr/AndroidStudioProjects/NetflixClone/app/src/main/res/layout/item_view_footer.xml" value="0.26875" />
+        <entry key="..\:/Users/vgabr/AndroidStudioProjects/NetflixClone/app/src/main/res/layout/item_view_news.xml" value="0.26875" />
+        <entry key="..\:/Users/vgabr/AndroidStudioProjects/NetflixClone/app/src/main/res/layout/item_view_normal.xml" value="0.26875" />
+        <entry key="..\:/Users/vgabr/AndroidStudioProjects/NetflixClone/app/src/main/res/layout/item_view_onlynetflix.xml" value="0.26875" />
+        <entry key="..\:/Users/vgabr/AndroidStudioProjects/NetflixClone/app/src/main/res/layout/toolbar_main.xml" value="0.26875" />
+        <entry key="..\:/Users/vgabr/AndroidStudioProjects/NetflixClone/app/src/main/res/menu/menu_main.xml" value="0.26875" />
+        <entry key="..\:/Users/vgabr/AndroidStudioProjects/NetflixClone/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.28489583333333335" />
+        <entry key="..\:/Users/vgabr/AndroidStudioProjects/NetflixClone/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.28489583333333335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
