@@ -201,7 +201,7 @@
         android:background="@color/black"
         android:gravity="center_vertical"
         android:orientation="vertical"
-        android:visibility="invisible">
+        android:visibility="visible">
 
         <ProgressBar
             android:id="@+id/progressBar2"
