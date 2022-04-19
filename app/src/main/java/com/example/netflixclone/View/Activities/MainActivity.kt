@@ -54,7 +54,7 @@ class MainActivity : AppCompatActivity() {
 
 
 
-        model.listUsers.observe(this, { array ->
+        model.listUsers.observe(this) { array ->
             listaUsers = array
             adapterUser = AddUserAdapter(listaUsers)
             binding.rvUsers.adapter = adapterUser
@@ -65,12 +65,12 @@ class MainActivity : AppCompatActivity() {
                 startActivity(Intent(this, MainNetflixActivity::class.java))
             }
 
-            if (adapterUser.listaUser.isEmpty()){
+            if (adapterUser.listaUser.isEmpty()) {
                 binding.textView3.text = "Crie seu primeiro perfil!"
-            }else{
+            } else {
                 binding.textView3.text = "Quem irá assistir?"
             }
-        })
+        }
 
     }
 
