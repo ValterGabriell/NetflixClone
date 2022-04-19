@@ -1,4 +1,4 @@
-package com.example.netflixclone.Repository.MainViewModel
+package com.example.netflixclone.Repository.MainRepository
 
 import android.app.Application
 import androidx.lifecycle.MutableLiveData

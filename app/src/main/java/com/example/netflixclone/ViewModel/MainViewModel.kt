@@ -4,7 +4,7 @@ import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
 import com.example.netflixclone.Models.UserModel
-import com.example.netflixclone.Repository.MainViewModel.MainViewModelRepository
+import com.example.netflixclone.Repository.MainRepository.MainViewModelRepository
 
 class MainViewModel(
     private val mainViewModelRepository: MainViewModelRepository,

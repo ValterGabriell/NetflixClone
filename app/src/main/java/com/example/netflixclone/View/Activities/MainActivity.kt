@@ -1,30 +1,25 @@
 package com.example.netflixclone.View.Activities
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-import android.widget.Button
 import android.widget.ImageView
 import android.widget.Toast
-import androidx.activity.viewModels
+import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.netflixclone.FilmesFragment
-import com.example.netflixclone.FirstFragment
 import com.example.netflixclone.Models.UserModel
 import com.example.netflixclone.R
 import com.example.netflixclone.View.Adapters.AddUserAdapter
 import com.example.netflixclone.ViewModel.MainViewModel
 import com.example.netflixclone.databinding.ActivityMainBinding
+import org.koin.android.ext.android.inject
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
     private var listaUsers = ArrayList<UserModel>()
     private lateinit var adapterUser: AddUserAdapter
-    private val model: MainViewModel by viewModels()
+    private val model by inject<MainViewModel>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -36,9 +31,6 @@ class MainActivity : AppCompatActivity() {
         binding.toolbarmain.findViewById<ImageView>(R.id.id_edit_img_main).setOnClickListener {
             startActivity(Intent(this, EditPRrofile::class.java))
         }
-
-
-
 
         createProfile()
     }
