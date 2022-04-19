@@ -15,7 +15,6 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainNetflixActivity : AppCompatActivity() {
 
-
     private lateinit var binding : ActivityMainNetflixBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

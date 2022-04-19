@@ -18,11 +18,12 @@ import com.example.netflixclone.Models.UserModel
 import com.example.netflixclone.R
 import com.example.netflixclone.ViewModel.CreateProfileViewModel
 import com.example.netflixclone.databinding.ActivityCreatePerfilBinding
+import org.koin.android.ext.android.inject
 
 
 class CreatePerfilActivity : AppCompatActivity() {
     private lateinit var binding: ActivityCreatePerfilBinding
-    private val viewModel: CreateProfileViewModel by viewModels()
+    private val viewModel by inject<CreateProfileViewModel>()
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
